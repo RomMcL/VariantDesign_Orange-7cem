@@ -1,0 +1,398 @@
+
+.section_1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    h1 {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: var(--white);
+
+        @media (max-width: 479px) {
+            font-size: 1.6rem;
+        }
+    }
+
+    /* левый раздел */
+    > article:first-of-type {
+        width: 34%;
+        align-self: stretch;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+        
+
+        /* Заголовок */
+        > h1 {
+            width: 100%;
+            font-weight: 800;
+            line-height: 1.4;
+            margin-top: 3rem;
+            margin-left: 1rem;
+            margin-bottom: 0.6rem;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            > span:last-of-type {
+                margin-left: 5.2rem;
+            }
+
+            @media (max-width: 900px) {
+                flex-direction: row;
+
+                > span:last-of-type {
+                    margin-left: 1.4rem;
+                }
+            }
+
+            @media (max-width: 575px) {
+                order: 1;
+            }
+
+            @media (max-width: 479px) {
+                > span:last-of-type {
+                    margin-left: 1.0rem;
+                }
+            }
+        }
+
+        /* Пункты услуг */
+        > div:first-of-type {
+            flex-grow: 1;
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: flex-start;
+            justify-content: space-around;
+            row-gap: 1rem;
+            margin-bottom: 1rem;
+
+            > div {
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: flex-start;
+                align-items: flex-start;
+                column-gap: 0.5rem;
+                color: var(--white-text-soft);
+                background: rgba(255, 255, 255, 0.05);
+                border-radius: 0.4rem 0 0 0.4rem;
+                border-left: 4px solid var(--orange);
+                padding: 0.5rem;
+
+                > span {
+                    font-size: 1.8rem;
+                    font-weight: 800;
+                    color: var(--grey-dark);
+                    opacity: 0.5;
+                }
+
+                > p {
+                    font-size: 1.2rem;
+                    line-height: 1.4;
+
+                    @media (max-width: 1200px) {
+                        font-size: 1.1rem;
+                        line-height: 1.3;
+                    }
+
+                    @media (max-width: 900px) {
+                        font-size: 1.2rem;
+                        line-height: 1.4;
+                    }
+
+                    @media (max-width: 767px) {
+                        font-size: 1.1rem;
+                        line-height: 1.3;
+                    }
+                }
+
+                @media (max-width: 900px) {
+                    border-radius: 0.4rem;
+                }
+            } 
+
+            @media (max-width: 575px) {
+                order: 3;
+                margin-bottom: 0;
+            }
+
+        }
+
+        /* Нижнее фото */
+        > div:last-of-type {
+            width: 100%;
+            aspect-ratio: 2 / 1;
+
+            > img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            @media (max-width: 575px) {
+                order: 2;
+                margin-top: 0.2rem;
+                margin-bottom: 1.4rem;
+                position: relative;
+
+                > img {
+                    width: 80%;
+                    aspect-ratio: 2 / 1;
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    bottom: -1rem;
+                    right: 0;
+                    width: 28%;
+                    height: 55%;
+                    background-image: var(--orange-gradient);
+                    opacity: 0.6;
+                }
+    
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: -2rem;
+                    right: 3%;
+                    width: 15%;
+                    height: 75%;
+                    background-image: url('../img/decor-point-v.svg');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: top center;
+                }
+            }
+        }
+
+        /* Декор */
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 8.5rem;
+            height: 5.6rem;
+            background-image: var(--orange-gradient-revers);
+            opacity: 0.6;
+            z-index: -1;
+        }
+        
+        &::before {
+            content: '';
+            position: absolute;
+            top: -0.4rem;
+            right: -4.7rem;
+            width: 60%;
+            aspect-ratio: 2 / 1;
+            background-image: url('../img/decor-point-g.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: top right;
+            z-index: 1;
+        }
+
+
+        @media (max-width: 900px) {
+            width: 50%;
+
+            &::before {
+                top: -1rem;
+                right: -2.7rem;
+                width: 40%;
+            }
+        }
+
+        @media (max-width: 575px) {
+            width: 100%;
+
+            &::before {
+                display: none;
+            }
+        }
+
+        @media (max-width: 479px) {
+            &::after {
+                width: 7.5rem;
+            }
+        }
+        
+    }
+
+    /* правый раздел */
+    > article:last-of-type {
+        flex-grow: 1;
+        align-self: stretch;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        /* верхнее фото */
+        > div:first-of-type {
+            width: 100%;
+            aspect-ratio: 2 / 1;
+            position: relative;
+
+            > img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                bottom: -3rem;
+                right: 0;
+                width: 30%;
+                height: 60%;
+                background-image: var(--orange-gradient);
+                opacity: 0.6;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 3rem;
+                right: 3%;
+                width: 15%;
+                height: 65%;
+                background-image: url('../img/decor-point-v.svg');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: top right;
+            }
+
+            @media (max-width: 900px) {
+                &::before {
+                    bottom: auto;
+                    top: -1rem;
+                }
+            }
+
+        }
+        /* 2 колонки под фото */
+        > div:last-of-type {
+            width: 100%;
+            flex-grow: 1;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: flex-start;
+
+            /* левая колонка */
+            > div:first-of-type {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: flex-start;
+                justify-content: flex-start;
+                padding: 1rem;
+
+                background-image: var(--orange-gradient-revers);
+
+                > ul {
+                    flex-grow: 1;
+                    display: flex;
+                    flex-flow: column nowrap;
+                    align-items: flex-start;
+                    justify-content: space-around;
+                    row-gap: 1rem;
+                    padding: 1rem 0;
+
+                    list-style-type: circle;
+                    list-style-position: inside;
+                    text-indent: -1.5rem;
+                    padding-left: 1.5rem;
+
+                    li {
+                        text-align: left;
+                        font-size: 1.3rem;
+                        line-height: 1.3;
+
+                        @media (max-width: 767px) {
+                            font-size: 1.2rem;
+                            line-height: 1.2;
+                        }
+                    }
+                }
+
+                @media (max-width: 900px) {
+                    width: 100%;
+                }
+
+            }
+
+            /* правая колонка */
+            > div:last-of-type {
+                width: 50%;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.05);
+                padding: 4rem 1rem 1rem 1rem;
+
+                > p {
+                    color: var(--white-text-soft);
+                    font-size: 1.2rem;
+                    line-height: 1.4;
+                    text-align: left;
+
+                    @media (max-width: 1200px) {
+                        font-size: 1.1rem;
+                        line-height: 1.3;
+                    }
+
+                    @media (max-width: 900px) {
+                        font-size: 1.2rem;
+                        line-height: 1.4;
+                    }
+
+                    @media (max-width: 767px) {
+                        font-size: 1.1rem;
+                        line-height: 1.3;
+                    }
+                }
+
+                @media (max-width: 900px) {
+                    width: 100%;
+                    padding: 1rem;
+                }
+            }
+
+            @media (max-width: 900px) {
+                flex-direction: column;
+            }
+
+        }
+
+        @media (max-width: 900px) {
+            width: 50%;
+        }
+
+        @media (max-width: 575px) {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 900px) {
+        column-gap: 0.4rem;
+    }
+
+    @media (max-width: 575px) {
+        flex-direction: column;
+        row-gap: 1.5rem;
+    }
+
+}

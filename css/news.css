@@ -1,0 +1,21 @@
+
+.section_1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 5rem;
+    color: var(--white-text-soft);
+
+    > h1 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        word-spacing: 0.4rem;
+        font-size: 2rem;
+        font-weight: 800;
+        color: var(--orange);
+        text-align: center;
+    }
+}

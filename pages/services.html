@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="shortcut icon" href="../img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="../css/mainStyles.css" />
+  <link rel="stylesheet" type="text/css" href="../css/modal.css" />
+  <link rel="stylesheet" type="text/css" href="../css/services.css" />
+  <title>7cem.ru - Наши услуги</title>
+</head>
+
+<body>
+  <header>
+    <a href="../" class="header_logo">
+      <div></div>
+      <h1>7cem.ru</h1>
+    </a>
+    <button class="btn-burger-menu" aria-label="Меню-Бургер">
+      <p>
+        <span></span>
+        <span></span>
+        <span></span>
+      </p>      
+      <span id="burger-status-menu">меню</span>
+      <span id="burger-status-close">закрыть</span>
+    </button>
+    <nav class="header_nav">      
+      <a href="#">Наши услуги</a>
+      <a href="../pages/about.html">О нас</a>
+      <a href="../pages/news.html">События</a>
+      <div><span>www.7cem.ru</span></div> 
+    </nav>
+    <div class="header_login">
+      <button id="btn-login" class="btn-type-1">Войти</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section_1">
+      <article>
+        
+        <h1>
+          <span>Наши</span>
+          <span>услуги</span>
+        </h1>
+        
+        <div>
+          <div>
+            <span>1.</span>
+            <p>Проведение экспертной оценки текущих производственных процессов с целью выявления резервов для повышения качества продукции и снижения затрат.</p>
+          </div>
+          <div>
+            <span>2.</span>
+            <p>Внедрение специализированных программных решений для автоматизации расчётов, ведущих к значительному сокращению времеми на подготовку данных и повышению общей экономической эффективности предприятия.</p>
+          </div>
+          <div>
+            <span>3.</span>
+            <p>Обучение сотрудников работе с новыми системами и программным обеспечением, а также предоставление консультаций по вопросам автоматизации и оптимизации производства.</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="../img/services-2.png" alt="Плодотворная деятельность">
+        </div>
+                
+      </article>
+
+      <article>
+        <div>
+          <img src="../img/services-1.png" alt="Инновационные продукты">
+        </div>
+        <div>
+          <div>
+            <div>
+              <h2>Почему</h2>
+              <h1>Выбирают нас</h1>
+            </div>
+            <ul>
+              <li>Глубокая экспертиза в цементной промышленности</li>
+              <li>Индивидуальный подход к каждому клиенту</li>
+              <li>Экономическая выгода и быстрая окупаемость</li>
+              <li>Комплексное сопровождение и обучение</li>
+            </ul>
+          </div>
+          <div>
+            <p>Наша команда обладает многолетним опытом в цементной отрасли, что позволяет нам точно понимать ваши производственные процессы и предлагать эффективные решения. Каждый проект разрабатывается индивидуально, учитывая уникальные потребности вашего предприятия. Наши решения снижают затраты и повышают производительность, что быстро отражается на финансовых показателях. Мы предоставляем полное сопровождение: от установки до обучения персонала, чтобы ваши сотрудники эффективно использовали новые инструменты.</p>
+          </div>
+        </div>
+      </article>
+
+    </section>
+      
+  </main>
+
+  <footer>
+    <div class="footer_copyright">      
+      <a href="../" class="logo-link" aria-label="На главную">
+        <img src="../img/logo.svg" alt="7cem.ru" aria-hidden="true">
+        <span aria-label="Сайт 7cem.ru">7cem.ru</span>
+      </a>
+      <small>© 2025-2026</small>
+    </div>
+    <div class="footer_info">
+      <h2>Цементный Калькулятор</h2>
+      <nav>
+        <a href="#">Наши услуги</a>
+        <a href="../pages/about.html">О нас</a>
+        <a href="../pages/news.html">События</a>
+      </nav>
+    </div>
+    <div class="footer_info">
+      <h2>Дополнительная информация</h2>
+      <div>
+        <p class="dev-warning">⚠️ Сайт в разработке</p>
+        <p class="dev-warning">⚠️ Ограничен доступ к демо калькулятора</p>
+      </div>      
+    </div>
+    <div class="footer_social">
+      <h3>Мы в соцсетях</h3>
+      <div>
+        <a href="#" aria-label="ВКонтакте">
+          <svg>
+            <use href="../img/social/social-sprite.svg#icon-vk"></use>
+          </svg>
+        </a>
+        <a href="#" aria-label="Telegram">
+          <svg>
+            <use href="../img/social/social-sprite.svg#icon-tg"></use>
+          </svg>
+        </a>
+        <a href="#" aria-label="RuTube">
+          <svg>
+            <use href="../img/social/social-sprite.svg#icon-rutube"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Модальное окно для входа -->
+  <div class="main-display-overlay" id="modal-login">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h2>Вход на сайт</h2>
+      <form class="modal-form" id="login-form">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Пароль" required>
+        <button type="submit" class="btn-type-1">Войти</button>
+        <p class="modal-error">⚠️ В данный момент форма не активна</p>
+      </form>
+    </div>
+  </div>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/modal.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <!-- Логотип 1: Цементный завод №1 -->
+  <symbol id="logo-zavod1" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#2C3E50" rx="8"/>
+    <!-- Строение завода -->
+    <rect x="30" y="30" width="25" height="50" fill="#95A5A6" rx="2"/>
+    <rect x="65" y="20" width="35" height="60" fill="#7F8C8D" rx="2"/>
+    <rect x="110" y="25" width="25" height="55" fill="#95A5A6" rx="2"/>
+    <rect x="145" y="15" width="25" height="65" fill="#7F8C8D" rx="2"/>
+    <!-- Трубы -->
+    <rect x="45" y="10" width="8" height="25" fill="#E67E22"/>
+    <rect x="125" y="5" width="10" height="30" fill="#E67E22"/>
+    <!-- Дым -->
+    <circle cx="50" cy="5" r="8" fill="#ECF0F1" opacity="0.7"/>
+    <circle cx="130" cy="0" r="10" fill="#ECF0F1" opacity="0.7"/>
+    <!-- Текст -->
+    <text x="200" y="85" font-size="18" text-anchor="end" fill="white" font-weight="bold">ЗАВОД №1</text>
+    <text x="200" y="85" font-size="18" text-anchor="end" fill="white" font-weight="bold" dx="-2" dy="-2" stroke="#2C3E50" stroke-width="0.5">ЗАВОД №1</text>
+  </symbol>
+
+  <!-- Логотип 2: Силикат Индастри -->
+  <symbol id="logo-silikat" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#34495E" rx="8"/>
+    <!-- Кристаллическая структура -->
+    <polygon points="40,40 60,25 80,40 80,65 60,80 40,65" fill="none" stroke="#E67E22" stroke-width="4"/>
+    <polygon points="100,30 140,30 155,50 140,70 100,70 85,50" fill="none" stroke="#ECF0F1" stroke-width="3"/>
+    <circle cx="60" cy="52" r="12" fill="#E67E22" opacity="0.8"/>
+    <circle cx="120" cy="50" r="10" fill="#E67E22" opacity="0.6"/>
+    <!-- Текст -->
+    <text x="180" y="80" font-size="22" text-anchor="end" fill="white" font-weight="bold">СИЛИКАТ</text>
+    <text x="178" y="78" font-size="22" text-anchor="end" fill="#E67E22" font-weight="bold">СИЛИКАТ</text>
+  </symbol>
+
+  <!-- Логотип 3: Цемрос -->
+  <symbol id="logo-cemros2" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#2C3E50" rx="8"/>
+    <!-- Буква Ц с элементами -->
+    <rect x="30" y="25" width="70" height="50" fill="none" stroke="#E67E22" stroke-width="6"/>
+    <line x1="30" y1="25" x2="100" y2="75" stroke="#ECF0F1" stroke-width="4"/>
+    <line x1="100" y1="25" x2="30" y2="75" stroke="#ECF0F1" stroke-width="4"/>
+    <circle cx="65" cy="50" r="15" fill="#E67E22"/>
+    <!-- Текст -->
+    <text x="170" y="65" font-size="36" text-anchor="end" fill="white" font-weight="bold">ЦЕМРОС</text>
+    <text x="168" y="63" font-size="36" text-anchor="end" fill="#E67E22" font-weight="bold">ЦЕМРОС</text>
+  </symbol>
+
+  <!-- Логотип 4: Гигант Цемент -->
+  <symbol id="logo-gigant2" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#2C3E50" rx="8"/>
+    <!-- Башни -->
+    <rect x="30" y="30" width="20" height="55" fill="#7F8C8D"/>
+    <rect x="60" y="15" width="30" height="70" fill="#95A5A6"/>
+    <rect x="100" y="25" width="25" height="60" fill="#7F8C8D"/>
+    <rect x="135" y="10" width="20" height="75" fill="#E67E22"/>
+    <!-- Текст -->
+    <text x="190" y="85" font-size="32" text-anchor="end" fill="white" font-weight="bold">ГИГАНТ</text>
+    <text x="188" y="83" font-size="32" text-anchor="end" fill="#E67E22" font-weight="bold">ГИГАНТ</text>
+  </symbol>
+
+  <!-- Логотип 5: Бетон Стандарт -->
+  <symbol id="logo-beton2" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#2C3E50" rx="8"/>
+    <!-- Бетонный блок -->
+    <rect x="30" y="25" width="80" height="50" fill="#7F8C8D" rx="4"/>
+    <rect x="40" y="35" width="20" height="30" fill="#95A5A6"/>
+    <rect x="70" y="35" width="20" height="30" fill="#95A5A6"/>
+    <rect x="40" y="35" width="50" height="8" fill="#E67E22"/>
+    <!-- Текст -->
+    <text x="170" y="70" font-size="30" text-anchor="end" fill="white" font-weight="bold">БЕТОН</text>
+    <text x="168" y="68" font-size="30" text-anchor="end" fill="#E67E22" font-weight="bold">БЕТОН</text>
+  </symbol>
+
+  <!-- Логотип 6: Cement Lab -->
+  <symbol id="logo-lab2" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#2C3E50" rx="8"/>
+    <!-- Колбы -->
+    <ellipse cx="50" cy="60" rx="25" ry="15" fill="#95A5A6"/>
+    <rect x="40" y="25" width="20" height="40" fill="#7F8C8D"/>
+    <ellipse cx="100" cy="55" rx="20" ry="12" fill="#E67E22" opacity="0.7"/>
+    <rect x="90" y="30" width="20" height="30" fill="#E67E22" opacity="0.5"/>
+    <!-- Пузырьки -->
+    <circle cx="50" cy="45" r="3" fill="#ECF0F1"/>
+    <circle cx="58" cy="35" r="4" fill="#ECF0F1"/>
+    <!-- Текст -->
+    <text x="180" y="75" font-size="28" text-anchor="end" fill="white" font-weight="bold">CEMENT LAB</text>
+    <text x="178" y="73" font-size="28" text-anchor="end" fill="#E67E22" font-weight="bold">CEMENT LAB</text>
+  </symbol>
+
+  <!-- Логотип 7: Восток Цемент -->
+  <symbol id="logo-vostok2" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#2C3E50" rx="8"/>
+    <!-- Восходящее солнце -->
+    <circle cx="60" cy="50" r="25" fill="#E67E22" opacity="0.8"/>
+    <!-- Лучи -->
+    <line x1="60" y1="15" x2="60" y2="25" stroke="#ECF0F1" stroke-width="3"/>
+    <line x1="60" y1="75" x2="60" y2="85" stroke="#ECF0F1" stroke-width="3"/>
+    <line x1="25" y1="50" x2="35" y2="50" stroke="#ECF0F1" stroke-width="3"/>
+    <line x1="85" y1="50" x2="95" y2="50" stroke="#ECF0F1" stroke-width="3"/>
+    <line x1="35" y1="30" x2="45" y2="40" stroke="#ECF0F1" stroke-width="3"/>
+    <line x1="75" y1="60" x2="85" y2="70" stroke="#ECF0F1" stroke-width="3"/>
+    <!-- Текст -->
+    <text x="170" y="80" font-size="32" text-anchor="end" fill="white" font-weight="bold">ВОСТОК</text>
+    <text x="168" y="78" font-size="32" text-anchor="end" fill="#E67E22" font-weight="bold">ВОСТОК</text>
+  </symbol>
+
+  <!-- Логотип 8: НИИ Цемента -->
+  <symbol id="logo-nii" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#2C3E50" rx="8"/>
+    <!-- Атом/наука -->
+    <ellipse cx="70" cy="50" rx="25" ry="12" fill="none" stroke="#E67E22" stroke-width="3"/>
+    <ellipse cx="70" cy="50" rx="25" ry="12" fill="none" stroke="#E67E22" stroke-width="3" transform="rotate(60 70 50)"/>
+    <ellipse cx="70" cy="50" rx="25" ry="12" fill="none" stroke="#E67E22" stroke-width="3" transform="rotate(120 70 50)"/>
+    <circle cx="70" cy="50" r="8" fill="#E67E22"/>
+    <!-- Книга -->
+    <rect x="110" y="30" width="30" height="35" fill="#7F8C8D" rx="2"/>
+    <line x1="115" y1="38" x2="135" y2="38" stroke="#ECF0F1" stroke-width="2"/>
+    <line x1="115" y1="48" x2="135" y2="48" stroke="#ECF0F1" stroke-width="2"/>
+    <!-- Текст -->
+    <text x="180" y="80" font-size="28" text-anchor="end" fill="white" font-weight="bold">НИИ</text>
+    <text x="178" y="78" font-size="28" text-anchor="end" fill="#E67E22" font-weight="bold">НИИ</text>
+  </symbol>
+
+  <!-- Логотип 9: Цементный Технопарк -->
+  <symbol id="logo-techno" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#2C3E50" rx="8"/>
+    <!-- Здания технопарка -->
+    <rect x="30" y="35" width="25" height="45" fill="#7F8C8D"/>
+    <rect x="65" y="25" width="30" height="55" fill="#95A5A6"/>
+    <rect x="105" y="30" width="25" height="50" fill="#7F8C8D"/>
+    <!-- Шестеренка (технологии) -->
+    <circle cx="150" cy="55" r="18" fill="none" stroke="#E67E22" stroke-width="4"/>
+    <circle cx="150" cy="55" r="8" fill="#E67E22"/>
+    <line x1="150" y1="37" x2="150" y2="47" stroke="#E67E22" stroke-width="3"/>
+    <line x1="150" y1="63" x2="150" y2="73" stroke="#E67E22" stroke-width="3"/>
+    <line x1="132" y1="55" x2="142" y2="55" stroke="#E67E22" stroke-width="3"/>
+    <line x1="158" y1="55" x2="168" y2="55" stroke="#E67E22" stroke-width="3"/>
+    <!-- Текст -->
+    <text x="190" y="90" font-size="18" text-anchor="end" fill="white" font-weight="bold">TECHNO</text>
+  </symbol>
+
+  <!-- Логотип 10: Альфа Цемент -->
+  <symbol id="logo-alfa" viewBox="0 0 200 100">
+    <rect width="200" height="100" fill="#2C3E50" rx="8"/>
+    <!-- Буква А в современном стиле -->
+    <polygon points="50,25 80,75 20,75" fill="#E67E22" opacity="0.9"/>
+    <rect x="35" y="55" width="30" height="5" fill="#ECF0F1"/>
+    <!-- Линии/структура -->
+    <line x1="110" y1="25" x2="110" y2="75" stroke="#E67E22" stroke-width="6"/>
+    <line x1="110" y1="40" x2="160" y2="40" stroke="#ECF0F1" stroke-width="4"/>
+    <line x1="110" y1="60" x2="160" y2="60" stroke="#ECF0F1" stroke-width="4"/>
+    <!-- Текст -->
+    <text x="180" y="80" font-size="32" text-anchor="end" fill="white" font-weight="bold">АЛЬФА</text>
+    <text x="178" y="78" font-size="32" text-anchor="end" fill="#E67E22" font-weight="bold">АЛЬФА</text>
+  </symbol>
+</svg>

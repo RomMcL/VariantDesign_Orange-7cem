@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="./css/mainStyles.css" />
+  <link rel="stylesheet" type="text/css" href="./css/index.css" />
+  <link rel="stylesheet" type="text/css" href="./css/modal.css" />
+  <title>7cem.ru - Главная страница</title>
+</head>
+
+<body>
+  <header>
+    <a href="./" class="header_logo">
+      <div></div>
+      <h1>7cem.ru</h1>
+    </a>
+    <button class="btn-burger-menu" aria-label="Меню-Бургер">
+      <p>
+        <span></span>
+        <span></span>
+        <span></span>
+      </p>      
+      <span id="burger-status-menu">меню</span>
+      <span id="burger-status-close">закрыть</span>
+    </button>
+    <nav class="header_nav">      
+      <a href="./pages/services.html">Наши услуги</a>
+      <a href="./pages/about.html">О нас</a>
+      <a href="./pages/news.html">События</a>
+      <div><span>www.7cem.ru</span></div>      
+    </nav>
+    <div class="header_login">
+      <button id="btn-login" class="btn-type-1">Войти</button>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section_1">    
+      <!-- Левая часть -->
+      <article class="section_left">
+        <div>
+          <div>
+            <img src="./img/cement_factory.png" alt="Цементный завод">
+          </div>
+        </div>
+      </article>
+
+      <!-- Правая часть -->
+      <article class="section_right">
+        <h1>Цементные заводы</h1>
+
+        <div>
+          <div>
+            <h2>Доверяют</h2>
+            <p>
+              <span>Инновационные решения</span>
+              <span>опытных специалистов</span>
+              <span>обеспечивают успех...</span>
+            </p>
+          </div>
+          <div>
+            <h2>Нам</h2>
+            <div></div>
+          </div>
+        </div>
+
+        <button id="btn-open-reveal" class="btn-type-1">Узнать больше</button>
+      </article>
+
+      <!-- Скрытая часть -->
+      <div class="hidden-reveal-block">
+        <div>
+            <h2>Почему нам доверяют?</h2>
+
+            <div>
+              <div class="features-list">
+                <h3 data-feature="1" class="feature-item active">Запатентованные технологии</h3>
+                <h3 data-feature="2" class="feature-item">Научная деятельность</h3>
+                <h3 data-feature="3" class="feature-item">Результативность внедрений</h3>
+                <h3 data-feature="4" class="feature-item">Комплексный подход</h3>
+              </div>
+              
+              <div class="features-descriptions">
+                <p data-feature="1" class="feature-desc active">Используем собственные методики расчетов и анализа, подтвержденные патентами и положительным опытом эксплуатации.</p>
+                <p data-feature="2" class="feature-desc">Постоянно участвуем в отраслевых конференциях, публикуемся в специализированных изданиях и внедряем передовые научные знания.</p>
+                <p data-feature="3" class="feature-desc">Уже реализовали успешные проекты на заводах, добившись значительного повышения качества выпускаемого продукта и ощутимого экономического эффекта.</p>
+                <p data-feature="4" class="feature-desc">Предлагаем готовые решения, начиная от проектирования и заканчивая сопровождением, гарантируя полную адаптацию и интеграцию инноваций.</p>
+              </div>
+            </div>
+
+            <button id="btn-close-reveal">×</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_2"> 
+      <!-- Левая часть -->
+      <article>   
+        <h1>Ультра Инновационные</h1>     
+        <div>
+          <h2>Технолог</h2>
+          <h2>ии</h2>
+        </div>
+        <div>
+          <p>«Цементный калькулятор» — современный цифровой инструмент нового поколения, разработанный специально для эффективного расчета оптимального состава компонентов цемента. Продукт основан на уникальных алгоритмах и запатентованных методиках, обеспечивающих высокую точность и скорость расчетов.</p>
+          <p>Наш калькулятор позволит вам оперативно подбирать компоненты, оптимизировать рецептуру и снижать издержки производства благодаря современным технологиям обработки данных и интеллектуальному анализу. Оцените преимущества нашего инновационного подхода прямо сейчас!</p>
+        </div>    
+      </article>
+
+      <!-- Правая часть -->
+      <article>          
+        <div>
+          <div>
+            <img src="./img/technology.png" alt="Инновации">
+          </div>
+        </div>
+        <div>
+          <div>
+            <p>Попробуйте бесплатную демонстрационную версию и убедитесь сами, насколько проще и эффективнее становится работа с нашим продуктом.</p>
+          </div>          
+          <button id="btn-demo-calc" class="btn-type-2">Демо онлайн</button> 
+        </div>
+      </article>
+    </section>
+
+    <section class="section_3">
+      <div>
+        <div>
+          <h2>Лучшие для</h2>
+        </div>
+        <div>
+          <h2> лучших</h2>
+          <h1> Наши партнёры</h1>         
+        </div>        
+      </div>
+      
+      <div>
+        <div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-zavod1"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-silikat"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-cemros2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-gigant2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-beton2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-lab2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-vostok2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-nii"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-techno"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-alfa"></use></svg></div>
+          
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-zavod1"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-silikat"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-cemros2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-gigant2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-beton2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-lab2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-vostok2"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-nii"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-techno"></use></svg></div>
+          <div><svg><use href="./img/partners/partners-sprite.svg#logo-alfa"></use></svg></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_4">
+      <!-- Левая часть -->
+      <article>
+        <div>
+          <div>
+            <img src="./img/recommendations/recommend-1.jpg" alt="Фото эксперта цементной отрасли" id="main-gallery-image">
+          </div>            
+        </div>
+    
+        <div>
+          <div class="thumbnail active" data-index="1">
+            <img src="./img/recommendations/thumb-1.jpg" alt="Эксперт 1">
+          </div>
+          <div class="thumbnail" data-index="2">
+            <img src="./img/recommendations/thumb-2.jpg" alt="Эксперт 2">
+          </div>
+          <div class="thumbnail" data-index="3">
+            <img src="./img/recommendations/thumb-3.jpg" alt="Эксперт 3">
+          </div>
+          <div class="thumbnail" data-index="4">
+            <img src="./img/recommendations/thumb-4.jpg" alt="Эксперт 4">
+          </div>
+        </div>
+    </article>
+
+      <!-- Правая часть -->
+      <article>
+        <div>
+          <div>
+            <h1>Рекомендации</h1>
+            <h2>Экспертов</h2>
+          </div>
+          <div>
+            <h1>ведущих</h1>
+            <div></div>
+          </div>
+        </div>
+        <div id="expert-name-block">
+          <h3 id="expert-name">Имя эксперта</h3>
+          <p id="expert-position">Должность эксперта</p>
+        </div>
+        <div>
+          <p id="expert-text">Рекомендация от эксперта</p>
+        </div>        
+      </article>
+    </section>
+      
+  </main>
+
+  <footer>
+    <div class="footer_copyright">      
+      <a href="./" class="logo-link" aria-label="На главную">
+        <img src="./img/logo.svg" alt="7cem.ru" aria-hidden="true">
+        <span aria-label="Сайт 7cem.ru">7cem.ru</span>
+      </a>
+      <small>© 2025-2026</small>
+    </div>
+    <div class="footer_info">
+      <h2>Цементный Калькулятор</h2>
+      <nav>
+        <a href="./pages/services.html">Наши услуги</a>
+        <a href="./pages/about.html">О нас</a>
+        <a href="./pages/news.html">События</a>
+      </nav>
+    </div>
+    <div class="footer_info">
+      <h2>Дополнительная информация</h2>
+      <div>
+        <p class="dev-warning">⚠️ Сайт в разработке</p>
+        <p class="dev-warning">⚠️ Ограничен доступ к демо калькулятора</p>
+      </div>      
+    </div>
+    <div class="footer_social">
+      <h3>Мы в соцсетях</h3>
+      <div>
+        <a href="#" aria-label="ВКонтакте">
+          <svg>
+            <use href="./img/social/social-sprite.svg#icon-vk"></use>
+          </svg>
+        </a>
+        <a href="#" aria-label="Telegram">
+          <svg>
+            <use href="./img/social/social-sprite.svg#icon-tg"></use>
+          </svg>
+        </a>
+        <a href="#" aria-label="RuTube">
+          <svg>
+            <use href="./img/social/social-sprite.svg#icon-rutube"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Модальное окно для входа -->
+  <div class="main-display-overlay" id="modal-login">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h2>Вход на сайт</h2>
+      <form class="modal-form" id="login-form">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Пароль" required>
+        <button type="submit" class="btn-type-1">Войти</button>
+        <p class="modal-error">⚠️ В данный момент форма не активна</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Модальное окно для демо-калькулятора -->
+  <div class="main-display-overlay" id="modal-demo">
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <div class="admin-link">
+        <a href="#">⚙️</a>
+      </div>
+      <h2>Доступ к демо-версии</h2>
+      <form class="modal-form" id="demo-form">
+        <input type="password" placeholder="Введите код доступа" required>
+        <button type="submit" class="btn-type-2">Получить доступ</button>
+        <p class="modal-error">⚠️ В данный момент форма не активна</p>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/modal.js"></script>
+  
+</body>
+</html>
